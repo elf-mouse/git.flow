@@ -1,0 +1,20 @@
+```
+git branch [--color[=<when>] | --no-color] [-r | -a]
+	[--list] [-v [--abbrev=<length> | --no-abbrev]]
+	[--column[=<options>] | --no-column]
+	[(--merged | --no-merged | --contains) [<commit>]] [--sort=<key>]
+	[--points-at <object>] [<pattern>…​]
+git branch [--set-upstream | --track | --no-track] [-l] [-f] <branchname> [<start-point>]
+git branch (--set-upstream-to=<upstream> | -u <upstream>) [<branchname>]
+git branch --unset-upstream [<branchname>]
+git branch (-m | -M) [<oldbranch>] <newbranch>
+git branch (-d | -D) [-r] <branchname>…​
+git branch --edit-description [<branchname>]
+```
+
+```
+git branch develop origin/master
+git checkout develop
+
+git checkout -b develop origin/master
+```
